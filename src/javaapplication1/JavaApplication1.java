@@ -1,23 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package javaapplication1;
 
-/**
- *
- * @author cstuser
- */
+
 public class JavaApplication1 {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        int count = 10;
+    public static void Hello(){
         System.out.print("hello world");
+    }
+    public static void main(String[] args) {
+        Hello();
+        
     }
     
 }
